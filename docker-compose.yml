@@ -12,7 +12,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - MONGO_URL=mongodb.byf5.cloud
+      - MONGO_URL=172.16.1.30
       - INVENTORY_URL=http://inventory.byf5.cloud
       - RECOMMENDATIONS_URL=http://recommendations.byf5.cloud
       - IMAGE_DIRECTORY=${PRODUCT_TYPE}
